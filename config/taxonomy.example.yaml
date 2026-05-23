@@ -1,0 +1,23 @@
+dimensions:
+  - id: ai_engineering
+    label: "AI Engineering"
+    description: "Agents, LLMs, tools, automation, evals, memory, runtime infrastructure."
+    hints: ["agent", "llm", "tool", "workflow", "mcp", "eval", "memory"]
+  - id: knowledge_systems
+    label: "Knowledge Systems"
+    description: "PKM, second brain, note systems, learning loops, reasoning frameworks."
+    hints: ["wiki", "pkm", "obsidian", "learning", "thinking", "decision"]
+  - id: product_business
+    label: "Product & Business"
+    description: "Product strategy, markets, pricing, growth, monetization, side projects."
+    hints: ["product", "business", "pricing", "growth", "pmf", "startup"]
+  - id: distribution_brand
+    label: "Distribution & Brand"
+    description: "Content systems, audience building, publishing workflows, trust assets."
+    hints: ["content", "distribution", "brand", "writing", "audience"]
+  - id: finance_investing
+    label: "Finance & Investing"
+    description: "Macro, valuation, asset allocation, risk management, personal finance."
+    hints: ["macro", "valuation", "portfolio", "risk", "cash flow"]
+
+classification_rule: "Classify by the source's core thesis, not surface keywords."

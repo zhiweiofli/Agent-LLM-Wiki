@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# local/private user profile
+USER.md
+
+# optional local clones
+github-kb/repos/
+
+# Obsidian local state
+.obsidian/
+
+# generated binary artifacts
+*.pdf
+*.png
+*.jpg
+*.jpeg

@@ -1,0 +1,15 @@
+language:
+  primary: "English"
+  preserve_source_quotes: true
+
+verification:
+  zero_hallucination: true
+  unknown_token: "UNKNOWN"
+  semantic_diff_threshold: 0.2
+
+writeback:
+  ask_before_saving_conversation_insights: true
+  synthesis_path: "wiki/3_Synthesis"
+
+visualization:
+  prefer_mermaid_when_useful: true
