@@ -77,6 +77,7 @@ Classify by the source's core thesis, not surface keywords.
 
 | Trigger | Skill | Output |
 |---|---|---|
+| "初始化 wiki" or "setup wiki" or "wiki 首次配置" | `wiki-onboarding` | 环境检查、配置初始化、首次验证 |
 | `/wiki-ingest-raw` or "process raw files" | `wiki-ingest-raw` | source files become `raw-ingested` |
 | `/wiki-update-index` or "update index" | `wiki-update-index` | sources become `indexed`; master index updated |
 | `/wiki-extract-concept` or "extract concepts" | `wiki-extract-concept` | concept cards created or updated |
